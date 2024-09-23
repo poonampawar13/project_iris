@@ -47,9 +47,10 @@ def predict_species(scaler_path , model_path):
 # show the results in streamlit 
 
 if submit:
-    scaler_path = '/workspaces/project_iris/notebook.ipynb/scaler.pkl'
-    model_path = '/workspaces/project_iris/notebook.ipynb/model.pkl'
+    scaler_path = 'notebook.ipynb/scaler.pkl'
+    model_path = 'notebook.ipynb/model.pkl'
     pred, max_prob = predict_species(scaler_path,model_path)
     st.subheader(f'Predicted Species is : {pred[0]}')
     st.subheader(f'Probability of Prediction : {max_prob :.4f}')
     st.progress(max_prob)
+    
