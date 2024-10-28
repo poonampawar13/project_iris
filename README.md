@@ -1,3 +1,4 @@
+# My deployed application link- [Link/"https://projectiris-12345678.streamlit.app"]
 # Iris Flower Classification
 This repository contains an end-to-end machine learning project to classify iris flowers into three species: Setosa, Versicolor, and Virginica. The project demonstrates a complete workflow from data exploration to model deployment using popular machine learning techniques.
 
@@ -24,5 +25,3 @@ The dataset is publicly available and can be accessed via the UCI Machine Learni
 * Matplotlib and Seaborn (Data Visualization)
 * Scikit-learn (Machine Learning Library)
 * Streamlit (Model Deployment)
-
-My deployed application link- https://projectiris-12345678.streamlit.app
